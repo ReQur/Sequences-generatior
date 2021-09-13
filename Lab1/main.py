@@ -7,7 +7,7 @@ def main():
     global yArray, ky, kx
 
     while True:
-        Data = open("C:\Programming\Alg&Data\Lab1\Lab1\Lab1\GraphData.txt", "r")
+        Data = open("C:\Пользователи\Computer\source\repos\Sequences-generatior\Lab1\GraphData.txt", "r")
 
         yArray = Data.read().split()
         yArray = [int(number) for number in yArray]

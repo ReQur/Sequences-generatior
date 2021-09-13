@@ -1,0 +1,17 @@
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/xkcd.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/minimal.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/nonblock.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/animation.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/basic.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/bar.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/modern.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/fill_inbetween.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/fill.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/update.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/subplot2grid.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/lines3d.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/list_install_components.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/install/local.dir
+C:/Users/Computer/source/repos/Sequences-generatior/Lab1/matplotlib-cpp-master/out/build/x64-Debug/CMakeFiles/install.dir
