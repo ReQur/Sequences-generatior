@@ -11,15 +11,15 @@
 
 #define PI 3.14159265
 
-int ARRAYSIZE = 50000;
-int ARRAYINTERVAL = 5000;
+int ARRAYSIZE = 3500000;
+int ARRAYINTERVAL = 150;
 
-int ARRAYMIN_INT = 0;
-int ARRAYMAX_INT = 50000000;
+int ARRAYMIN_INT = 500;
+int ARRAYMAX_INT = 1500;
 
 
 int ARRAYMIN_DOUBLE = 0;
-int ARRAYMAX_DOUBLE = 100;
+int ARRAYMAX_DOUBLE = 1000;
 
 
 
@@ -46,6 +46,8 @@ void QuasiOrderedDouble(double* A, int Size, double Min, double Max);
 
 void Write_in_file(int* A, int Size);
 void Write_in_file_double(double* A, int Size);
+
+void Allfunc();
 
 
 void main()
@@ -179,12 +181,33 @@ void main()
 
     }
 
+	//Allfunc();
+	
+	
+}
+
+
+void Allfunc()
+{
+   
+	for(int size = 5000; size < 10000000; size *= 3)
+	{
+        int interval = size / 10;
+        double* Array = new double[size];
+        clock_t start = clock();
+        QuasiOrderedDouble(Array, size, ARRAYMIN_DOUBLE, ARRAYMAX_DOUBLE);
+        clock_t end = clock();
+        double ms = (double)(end - start) / (CLOCKS_PER_SEC / 1000);
+        cout << ms << " ms\t size " << size << endl;
+        free(Array);
+	}
+	
 	
 }
 
 void Write_in_file(int* A, int Size)
 {
-    ofstream fout("C:/Tests/GraphData.txt");
+    ofstream fout("C:/Programming/Alg&Data/Lab1/Lab1/Lab1/GraphData.txt");
     for (int i = 0; i < Size; i++)
     {
         fout << A[i] << " ";
@@ -194,7 +217,7 @@ void Write_in_file(int* A, int Size)
 
 void Write_in_file_double(double* A, int Size)
 {
-    ofstream fout("C:/Tests/GraphData.txt");
+    ofstream fout("C:/Programming/Alg&Data/Lab1/Lab1/Lab1/GraphData.txt");
     for (int i = 0; i < Size; i++)
     {
         fout << A[i] << " ";
